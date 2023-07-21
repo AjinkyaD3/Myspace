@@ -1,0 +1,16 @@
+SMAP
+AddFriend_jsp.java
+JSP
+*S JSP
+*F
++ 0 AddFriend.jsp
+AddFriend.jsp
+*L
+5,50:45
+56,30:97
+85,2:127
+87,6:129,3
+93,4:147
+97,8:152
+104,9:160
+*E
