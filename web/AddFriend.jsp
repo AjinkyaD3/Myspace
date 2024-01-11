@@ -11,6 +11,60 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+<<<<<<< HEAD
+       <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            border: 20px solid white;
+            margin-top: 300px;
+            margin-left: 600px;
+            background: url(https://initiate.alphacoders.com/images/616/cropped-1440-900-616945.png?8420);
+            background-size: cover;
+        }
+
+        table {
+            border: 5px solid white;
+            width: 100%;
+            margin-top: 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        table th,
+        table td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: #03fcfc;
+        }
+
+        td {
+            background-color: #00cccc;
+        }
+
+        a {
+            display: block;
+            margin-top: 20px;
+            color: #03fcfc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00cccc;
+        }
+
+        h1 {
+            font-size: 50px;
+            line-height: 64px;
+            color: #03fcfc;
+        }
+    </style>
+=======
         <style>
             *
             {
@@ -42,6 +96,7 @@
                 color: #03fcfc;
             }
         </style>
+>>>>>>> 9fc3ba02dbbaefd5ff3c5d6c2590adef9e83943d
     </head>
     <body>
         <a href ='SearchPerson.jsp'> Search User </a>

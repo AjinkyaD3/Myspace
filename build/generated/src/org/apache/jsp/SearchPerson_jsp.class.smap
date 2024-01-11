@@ -6,7 +6,13 @@ JSP
 + 0 SearchPerson.jsp
 SearchPerson.jsp
 *L
+<<<<<<< HEAD
+5,81:45
+89:130,2
+90,4:132
+=======
 5,52:45
 60:101,2
 61,4:103
+>>>>>>> 9fc3ba02dbbaefd5ff3c5d6c2590adef9e83943d
 *E

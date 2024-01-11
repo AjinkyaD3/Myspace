@@ -16,6 +16,72 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>AddPost</title>
         <style>
+<<<<<<< HEAD
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding-left: 600px;
+        margin-right: 800px;
+        margin-top: 300px;
+        background: url(https://initiate.alphacoders.com/images/616/cropped-1440-900-616945.png?8420);
+        background-size: cover;
+    }
+
+    form {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    select,
+    textarea {
+        width: 200px;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #03fcfc;
+        border: none;
+        color: #222;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #00cccc;
+    }
+
+    a {
+        display: block;
+        margin-top: 20px;
+        color: #03fcfc;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #00cccc;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 64px;
+        color: #03fcfc;
+    }
+</style>
+
+=======
             *
             {
                 margin: 0;
@@ -30,6 +96,7 @@
                   background-size: cover;
             }
         </style>
+>>>>>>> 9fc3ba02dbbaefd5ff3c5d6c2590adef9e83943d
     </head>
     <body> <%
             String name="";
@@ -41,11 +108,19 @@
                 System.err.println("--> " + name);
             }else
             {
+<<<<<<< HEAD
+//                response.sendRedirect("LoginPage.jsp");
+            }
+            
+           }catch(Exception e ){      
+//            response.sendRedirect("LoginPage.jsp");
+=======
                 response.sendRedirect("LoginPage.jsp");
             }
             
            }catch(Exception e ){      
             response.sendRedirect("LoginPage.jsp");
+>>>>>>> 9fc3ba02dbbaefd5ff3c5d6c2590adef9e83943d
             e.printStackTrace();
            }
             %>

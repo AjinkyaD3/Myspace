@@ -11,6 +11,54 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Register page </title>
         <style>
+<<<<<<< HEAD
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            padding-left: 600px;
+            margin-right: 800px;
+            margin-top: 300px;
+            background: url(https://initiate.alphacoders.com/images/616/cropped-1440-900-616945.png?8420);
+            background-size: cover;
+        }
+        form {
+            width: 300px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+        }
+        form input[type="text"],
+        form input[type="number"],
+        form input[type="email"],
+        form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        form a {
+            display: block;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+=======
             *
             {
                 margin: 0;
@@ -25,6 +73,7 @@
                   background-size: cover;
             }
         </style>
+>>>>>>> 9fc3ba02dbbaefd5ff3c5d6c2590adef9e83943d
     </head>
     <body>
        
